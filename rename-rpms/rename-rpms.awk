@@ -31,5 +31,5 @@ BEGIN{
 }
 
 END{
-  printf "%s-%s:%s-%s_%s.rpm\n", name, epoch, version, release, arch;
+  printf "%s-%s:%s-%s.%s.rpm\n", name, epoch, version, release, arch;
 }
